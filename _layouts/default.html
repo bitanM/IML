@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/just-the-docs@0.6.0/assets/css/just-the-docs.min.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  {% seo %}
+</head>
+<body>
+  <div class="js-site-header site-header" role="banner">
+    <div class="site-header-container">
+      <a href="/" class="site-header-title" aria-label="Home">
+        <span class="site-header-title-text">IML Lecture Notes</span>
+      </a>
+      <button class="site-header-nav-toggle" aria-expanded="false" aria-controls="site-header-nav" aria-label="Toggle navigation">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+      </button>
+      <nav class="site-header-nav" id="site-header-nav" role="navigation" aria-label="Main navigation">
+        <ul class="site-header-nav-list">
+          <li class="site-header-nav-item"><a href="/" class="site-header-nav-link">Home</a></li>
+          <li class="site-header-nav-item has-children">
+            <button class="site-header-nav-link" aria-expanded="false" aria-controls="lectures-menu">Lectures</button>
+            <ul class="site-header-nav-sublist" id="lectures-menu">
+              <li><a href="/lectures/Lecture_2_Convex_Functions_Optimization/" class="site-header-nav-sublink">Lecture 2: Convex Functions</a></li>
+              <li><a href="/lectures/Lecture_3_5_Linear_Regression_Probabilistic/" class="site-header-nav-sublink">Lecture 3-5: Linear Regression</a></li>
+              <li><a href="/lectures/Lecture_6_7_Linear_Models_for_Classification/" class="site-header-nav-sublink">Lecture 6-7: Discriminant Functions</a></li>
+              <li><a href="/lectures/Lecture_7_8_Linear_Models_for_Classification/" class="site-header-nav-sublink">Lecture 7-8: Generative Models</a></li>
+              <li><a href="/lectures/Lecture_9_Logistic_Regression_Notes/" class="site-header-nav-sublink">Lecture 9: Logistic Regression</a></li>
+              <li><a href="/lectures/Lecture_11_SVM_Support_Vector_Machines/" class="site-header-nav-sublink">Lecture 11: SVM</a></li>
+            </ul>
+          </li>
+          <li class="site-header-nav-item has-children">
+            <button class="site-header-nav-link" aria-expanded="false" aria-controls="fisher-menu">Fisher's LDA</button>
+            <ul class="site-header-nav-sublist" id="fisher-menu">
+              <li><a href="/fisher-lda/Assignment/" class="site-header-nav-sublink">Assignment</a></li>
+              <li><a href="/fisher-lda/Mathematics_Sheet/" class="site-header-nav-sublink">Math Sheet (Summary)</a></li>
+              <li><a href="/fisher-lda/Mathematics_Sheet_Detailed/" class="site-header-nav-sublink">Math Sheet (Detailed)</a></li>
+            </ul>
+          </li>
+          <li class="site-header-nav-item"><a href="/resources/problem-sets/" class="site-header-nav-link">Problem Sets</a></li>
+          <li class="site-header-nav-item"><a href="/resources/formulas/" class="site-header-nav-link">Formulas</a></li>
+          <li class="site-header-nav-item"><a href="/about/" class="site-header-nav-link">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main class="page-content" role="main">
+    <div class="page-content-container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer-container">
+      <p>&copy; 2026 Dr. Anirban Sen. All rights reserved.</p>
+      <p><a href="https://github.com/username/IML" target="_blank">View on GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/just-the-docs@0.6.0/assets/js/just-the-docs.min.js"></script>
+  <script>
+    // Simple dropdown toggle
+    document.querySelectorAll('.has-children > button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', !expanded);
+      });
+    });
+  </script>
+</body>
+</html>

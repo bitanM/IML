@@ -1,0 +1,37 @@
+# Main navigation for IML Lecture Notes
+
+- title: Home
+  url: /
+
+- title: Lectures
+  children:
+    - title: "Lecture 2: Convex Functions & Optimization"
+      url: /lectures/Lecture_2_Convex_Functions_Optimization/
+    - title: "Lecture 3-5: Linear Regression (Probabilistic View)"
+      url: /lectures/Lecture_3_5_Linear_Regression_Probabilistic/
+    - title: "Lecture 6-7: Linear Models for Classification (Discriminant Functions)"
+      url: /lectures/Lecture_6_7_Linear_Models_for_Classification/
+    - title: "Lecture 7-8: Linear Models for Classification (Generative Models & MLE)"
+      url: /lectures/Lecture_7_8_Linear_Models_for_Classification/
+    - title: "Lecture 9: Logistic Regression"
+      url: /lectures/Lecture_9_Logistic_Regression_Notes/
+    - title: "Lecture 11: Support Vector Machines"
+      url: /lectures/Lecture_11_SVM_Support_Vector_Machines/
+
+- title: Fisher's LDA Assignment
+  children:
+    - title: "Assignment Description"
+      url: /fisher-lda/Assignment/
+    - title: "Mathematics Sheet (Summary)"
+      url: /fisher-lda/Mathematics_Sheet/
+    - title: "Mathematics Sheet (Detailed Derivations)"
+      url: /fisher-lda/Mathematics_Sheet_Detailed/
+
+- title: Resources
+  children:
+    - title: "Problem Sets Index"
+      url: /resources/problem-sets/
+    - title: "Key Formulas Reference"
+      url: /resources/formulas/
+    - title: "About"
+      url: /about/

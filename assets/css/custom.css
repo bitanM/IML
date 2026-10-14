@@ -1,0 +1,247 @@
+/* Custom styles for IML Lecture Notes */
+
+/* Improve code block styling */
+.highlight {
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.highlight pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* Better table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+table th,
+table td {
+  border: 1px solid #e1e4e8;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #f6f8fa;
+  font-weight: 600;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+/* Image styling */
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 1.5rem auto;
+  display: block;
+}
+
+/* Math formula styling */
+.MathJax {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Navigation improvements */
+.site-header-nav-sublist {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 0.5rem 0;
+  min-width: 250px;
+  z-index: 100;
+}
+
+.site-header-nav-sublist.show {
+  display: block;
+}
+
+.site-header-nav-sublink {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #24292e;
+  text-decoration: none;
+}
+
+.site-header-nav-sublink:hover {
+  background-color: #f6f8fa;
+}
+
+.has-children {
+  position: relative;
+}
+
+/* Sidebar navigation for just-the-docs */
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list .nav-list {
+  padding-left: 1.5rem;
+  border-left: 2px solid #e1e4e8;
+  margin-left: 0.5rem;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.25rem 0;
+  color: #24292e;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #0366d6;
+}
+
+.nav-link.current {
+  font-weight: 600;
+  color: #0366d6;
+}
+
+/* Page header */
+.page-header {
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Table of contents */
+.toc {
+  background: #f6f8fa;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+.toc a {
+  text-decoration: none;
+  color: #24292e;
+}
+
+.toc a:hover {
+  color: #0366d6;
+}
+
+/* Callout boxes */
+.callout {
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  border-left: 4px solid;
+}
+
+.callout-info {
+  background-color: #eef6ff;
+  border-color: #0366d6;
+}
+
+.callout-warning {
+  background-color: #fffdef;
+  border-color: #d4a800;
+}
+
+.callout-important {
+  background-color: #fef0f0;
+  border-color: #d73a49;
+}
+
+.callout-success {
+  background-color: #f0fff4;
+  border-color: #22863a;
+}
+
+/* Problem set styling */
+.problem-set {
+  background: #fafbfc;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.problem-set h3 {
+  margin-top: 0;
+  color: #24292e;
+}
+
+/* Lecture metadata */
+.lecture-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f6f8fa;
+  border-radius: 6px;
+}
+
+.lecture-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #586069;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .site-header-nav-list {
+    flex-direction: column;
+  }
+  
+  .site-header-nav-sublist {
+    position: static;
+    box-shadow: none;
+    border: none;
+    background: #f6f8fa;
+  }
+  
+  .page-title {
+    font-size: 1.5rem;
+  }
+  
+  table {
+    font-size: 0.8rem;
+  }
+  
+  .highlight pre {
+    padding: 0.75rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .site-header,
+  .site-footer,
+  .site-header-nav-toggle {
+    display: none !important;
+  }
+  
+  .page-content {
+    max-width: none;
+  }
+}
