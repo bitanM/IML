@@ -554,4 +554,10 @@ $$f(x_{k+1}) \leq f(x_k) - \frac{1}{2L}\|\nabla f(x_k)\|^2$$
 
 ---
 
+## Navigation
+
+| Previous | Next |
+|----------|------|
+| — | [Lecture 3-5: Linear Regression (Probabilistic View)](/lectures/Lecture_3_5_Linear_Regression_Probabilistic/) |
+
 *End of Lecture Notes*

@@ -930,4 +930,10 @@ Starting from $\ln L=\sum_{n,k}t_{nk}\ln y_{nk}$ with softmax outputs, re-derive
 
 ---
 
+## Navigation
+
+| Previous | Next |
+|----------|------|
+| [Lecture 7-8: Generative Models & MLE](/lectures/Lecture_7_8_Linear_Models_for_Classification/) | [Lecture 11: Support Vector Machines](/lectures/Lecture_11_SVM_Support_Vector_Machines/) |
+
 *End of notes.*

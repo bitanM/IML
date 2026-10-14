@@ -1,48 +1,22 @@
 title: "IML - Introduction to Machine Learning Lecture Notes"
-description: "Lecture notes for Introduction to Machine Learning course covering convex optimization, linear regression, logistic regression, linear discriminant analysis, and support vector machines."
+description: "Lecture notes for Introduction to Machine Learning course"
 author: "Dr. Anirban Sen"
-email: "anirban.sen@ashoka.edu.in"
 
-# GitHub Pages settings
 remote_theme: just-the-docs/just-the-docs
-url: "https://username.github.io/IML"
+url: "https://bitanM.github.io/IML"
 
-# Search
 search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
-  tokenizer_separator: /[\s/]+/
-
-# Navigation
-aux_links:
-  "GitHub Repository":
-    - "https://github.com/username/IML"
-
-# Heading anchor links
 heading_anchors: true
 
-# Footer
-footer_content: "© 2026 Dr. Anirban Sen. All rights reserved."
-
-# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
-# Exclude
 exclude:
   - README.md
   - Gemfile
@@ -51,7 +25,3 @@ exclude:
   - vendor
   - .git
   - .gitignore
-  - _lectures
-  - _fisher-lda
-  - _layouts
-  - _includes

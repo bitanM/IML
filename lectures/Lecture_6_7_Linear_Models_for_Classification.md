@@ -475,4 +475,10 @@ Can these boundaries come from a single K-class discriminant construction? Why o
 
 ---
 
+## Navigation
+
+| Previous | Next |
+|----------|------|
+| [Lecture 3-5: Linear Regression](/lectures/Lecture_3_5_Linear_Regression_Probabilistic/) | [Lecture 7-8: Generative Models & MLE](/lectures/Lecture_7_8_Linear_Models_for_Classification/) |
+
 *End of Lecture Notes*

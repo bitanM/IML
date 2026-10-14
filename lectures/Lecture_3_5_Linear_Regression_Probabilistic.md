@@ -458,4 +458,10 @@ For the linear fit in Example 1:
 
 ---
 
+## Navigation
+
+| Previous | Next |
+|----------|------|
+| [Lecture 2: Convex Functions & Optimization](/lectures/Lecture_2_Convex_Functions_Optimization/) | [Lecture 6-7: Discriminant Functions](/lectures/Lecture_6_7_Linear_Models_for_Classification/) |
+
 *End of Lecture Notes*
