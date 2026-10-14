@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Mathematics Sheet (Detailed Derivations)"
+nav_order: 3
+parent: Fisher's LDA
+has_toc: true
+---
+
 # Detailed Mathematics Sheet: Fisher's Linear Discriminant Analysis
 
 This sheet provides step-by-step derivations of all equations used in Fisher's LDA, from first principles.
@@ -131,6 +139,7 @@ From Fisher's paper, Table III gives $S_W$ (sums of squares and products, 98 d.f
 | **Petal W** | 3.2394 | 2.4746 | 3.8794 | 2.4604 |
 
 Difference vector $d = \mu_{\text{versicolor}} - \mu_{\text{setosa}}$:
+
 | Feature | Setosa | Versicolor | Difference |
 |---|---|---|---|
 | Sepal L | 5.006 | 5.936 | 0.930 |
@@ -483,9 +492,10 @@ Reducing from $p=4$ to $C-1=2$ dimensions discards:
 ## 11. References
 
 1. **R. A. Fisher**, "The Use of Multiple Measurements in Taxonomic Problems," *Annals of Eugenics*, 7(2), 179–188, 1936.
-
 2. **R. A. Fisher**, "The Statistical Utilization of Multiple Measurements," *Annals of Eugenics*, 8(4), 376–386, 1938.
-
 3. **K. Fukunaga**, *Introduction to Statistical Pattern Recognition*, 2nd ed., Academic Press, 1990. (Chapter on LDA)
-
 4. **T. Hastie, R. Tibshirani, J. Friedman**, *The Elements of Statistical Learning*, 2nd ed., Springer, 2009. (Section 4.3)
+
+---
+
+*This sheet covers all mathematical content needed for the assignment implementation and viva preparation.*

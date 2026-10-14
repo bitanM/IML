@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Mathematics Sheet (Summary)"
+nav_order: 2
+parent: Fisher's LDA
+has_toc: true
+---
+
 # Mathematics Sheet: Fisher's Linear Discriminant Analysis (LDA)
 
 This sheet summarizes the mathematics presented in Fisher's 1936 paper *"The Use of Multiple Measurements in Taxonomic Problems"* and the corresponding Assignment 1 requirements.
@@ -269,7 +277,6 @@ Should be on order of machine precision (~1e-14 to 1e-12).
 ## 12. Key References
 
 1. **R. A. Fisher**, "The Use of Multiple Measurements in Taxonomic Problems," *Annals of Eugenics*, 7(2), 179–188, 1936. doi:10.1111/j.1469-1809.1936.tb02137.x.
-
 2. **Assignment**: Introduction to Machine Learning, Assignment 1: Fisher's LDA (September 2026).
 
 ---
