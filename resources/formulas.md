@@ -2,6 +2,7 @@
 layout: default
 title: Key Formulas Reference
 nav_order: 4
+permalink: /resources/formulas/
 ---
 
 # Key Formulas Reference

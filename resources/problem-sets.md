@@ -2,6 +2,7 @@
 layout: default
 title: Problem Sets Index
 nav_order: 3
+permalink: /resources/problem-sets/
 ---
 
 # Problem Sets Index

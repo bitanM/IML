@@ -2,6 +2,7 @@
 layout: default
 title: About
 nav_order: 5
+permalink: /about/
 ---
 
 # About This Project
