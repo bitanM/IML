@@ -4,6 +4,7 @@ title: "Lecture 2: Convex Functions & Optimization"
 nav_order: 1
 parent: Lectures
 has_toc: true
+permalink: /lectures/Lecture_2_Convex_Functions_Optimization/
 ---
 
 # Lecture 2: Convex Functions and Convex Optimization

@@ -4,6 +4,7 @@ title: "Fisher's LDA Assignment"
 nav_order: 1
 parent: Fisher's LDA
 has_toc: true
+permalink: /fisher-lda/Assignment/
 ---
 
 # Assignment 1: Fisher's Linear Discriminant Analysis

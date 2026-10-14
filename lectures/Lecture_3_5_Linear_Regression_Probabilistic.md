@@ -4,6 +4,7 @@ title: "Lecture 3-5: Linear Regression (Probabilistic View)"
 nav_order: 2
 parent: Lectures
 has_toc: true
+permalink: /lectures/Lecture_3_5_Linear_Regression_Probabilistic/
 ---
 
 # Lecture 3-5: Linear Regression – A Probabilistic Interpretation

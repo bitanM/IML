@@ -4,6 +4,7 @@ title: "Lecture 6-7: Linear Models for Classification (Discriminant Functions)"
 nav_order: 3
 parent: Lectures
 has_toc: true
+permalink: /lectures/Lecture_6_7_Linear_Models_for_Classification/
 ---
 
 # Lecture 6-7: Linear Models for Classification

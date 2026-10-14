@@ -4,6 +4,7 @@ title: "Mathematics Sheet (Summary)"
 nav_order: 2
 parent: Fisher's LDA
 has_toc: true
+permalink: /fisher-lda/Mathematics_Sheet/
 ---
 
 # Mathematics Sheet: Fisher's Linear Discriminant Analysis (LDA)

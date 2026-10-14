@@ -4,6 +4,7 @@ title: "Mathematics Sheet (Detailed Derivations)"
 nav_order: 3
 parent: Fisher's LDA
 has_toc: true
+permalink: /fisher-lda/Mathematics_Sheet_Detailed/
 ---
 
 # Detailed Mathematics Sheet: Fisher's Linear Discriminant Analysis

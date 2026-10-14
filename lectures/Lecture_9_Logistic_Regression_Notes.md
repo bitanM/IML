@@ -4,6 +4,7 @@ title: "Lecture 9: Logistic Regression"
 nav_order: 5
 parent: Lectures
 has_toc: true
+permalink: /lectures/Lecture_9_Logistic_Regression_Notes/
 ---
 
 # Logistic Regression — Complete Derivation Notes

@@ -4,6 +4,7 @@ title: "Lecture 7-8: Linear Models for Classification (Generative Models & MLE)"
 nav_order: 4
 parent: Lectures
 has_toc: true
+permalink: /lectures/Lecture_7_8_Linear_Models_for_Classification/
 ---
 
 # Lecture 7-8: Linear Models for Classification

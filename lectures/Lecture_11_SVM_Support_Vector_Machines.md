@@ -4,6 +4,7 @@ title: "Lecture 11: Support Vector Machines"
 nav_order: 6
 parent: Lectures
 has_toc: true
+permalink: /lectures/Lecture_11_SVM_Support_Vector_Machines/
 ---
 
 # Lecture 11: Support Vector Machines – Margin and Hard/Soft SVM
