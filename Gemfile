@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "just-the-docs", "~> 0.8"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "kramdown-parser-gfm"
+gem "webrick"
