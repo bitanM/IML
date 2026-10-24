@@ -571,6 +571,6 @@ Show it equals the sample mean.
 
 | Previous | Next |
 |----------|------|
-| [Lecture 6-7: Discriminant Functions](/lectures/Lecture_6_7_Linear_Models_for_Classification/) | [Lecture 9: Logistic Regression](/lectures/Lecture_9_Logistic_Regression_Notes/) |
+| [Lecture 6-7: Discriminant Functions]({{ site.baseurl }}/lectures/Lecture_6_7_Linear_Models_for_Classification/) | [Lecture 9: Logistic Regression]({{ site.baseurl }}/lectures/Lecture_9_Logistic_Regression_Notes/) |
 
 *End of Lecture Notes*

@@ -3,7 +3,8 @@ description: "Lecture notes for Introduction to Machine Learning course"
 author: "Dr. Anirban Sen"
 
 remote_theme: just-the-docs/just-the-docs
-url: "https://bitanM.github.io/IML"
+url: "https://bitanM.github.io"
+baseurl: "/IML"
 
 search_enabled: true
 heading_anchors: true

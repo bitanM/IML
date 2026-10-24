@@ -719,6 +719,6 @@ Explain the components and how this reduces to standard hinge loss for binary cl
 
 | Previous | Next |
 |----------|------|
-| [Lecture 9: Logistic Regression](/lectures/Lecture_9_Logistic_Regression_Notes/) | — |
+| [Lecture 9: Logistic Regression]({{ site.baseurl }}/lectures/Lecture_9_Logistic_Regression_Notes/) | — |
 
 *End of Lecture Notes*
